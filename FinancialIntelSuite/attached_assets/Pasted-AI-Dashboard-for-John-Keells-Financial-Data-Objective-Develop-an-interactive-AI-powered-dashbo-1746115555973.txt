@@ -1,0 +1,59 @@
+AI Dashboard for John Keells Financial Data
+
+Objective
+
+Develop an interactive AI-powered dashboard using Python, React,  to visualize key financial metrics from John Keells Holdings PLC’s annual reports (2019–2024). The dashboard should enable dynamic analysis with user-friendly filters and encourage creative features for enhanced insights.
+
+• Frontend: React (with Chart.js/D3.js for visualizations).
+• Backend: Python (Flask/Django for API, Pandas for data processing).
+• AI/ML: Python (scikit-learn, TensorFlow for forecasting)
+• Data Extraction: PDF parsing (Camelot/Tabula) if raw data not provided.
+
+Financial reports (PDFs)  will be provided. Focus on extracting key metrics revenue, expenses, EPS and
+transforming them into actionable insights
+
+Core Requirements
+
+1. Visualizations
+
+	1. Total Revenue (5-Year Curve)
+		Trend analysis (e.g., highlight 2019 growth vs. 2020 decline due to COVID-19).
+	2. Cost of Sales vs. Operating Expenses (5-Year Comparison)
+		 Stacked/grouped bar charts or dual-axis line charts.
+	3. Gross Profit Margin (5-Year Trend)
+		 Line chart with annotations for key events (e.g., Easter Sunday attacks, tax changes).
+	4. Earnings Per Share (EPS) (5-Year Curve)
+		 Include tooltips with net profit and share count.
+	5. Net Asset Per Share (5-Year Trend)
+		 Compare with industry benchmarks if data is available.
+	6. Right Issues (Optional)
+		Table/graph showing year, ratio, and issue price.
+	7. Top 20 Shareholders (5-Year Overview)
+		 Interactive table/pie chart with filters for year and ownership percentage
+
+2. UI/UX Features
+
+	1.Interactive Filters
+		Time period (year/quarter), industry group (Transportation, Leisure, etc.), and currency (LKR/USD).
+	2.Drill-Down Capability
+ 		Click on chart elements to view granular data (e.g., quarterly breakdowns).
+	3.Comparison Tool
+		Side-by-side analysis of metrics (e.g., revenue vs. cost of sales).
+	4.Annotations
+ 		Auto-generate contextual notes for anomalies (e.g., "2020 dip due to pandemic").
+	5.Responsive Design
+		Optimize for desktop, tablet, and mobile
+
+3. Advanced Features 
+
+	1. AI-Generated Insights
+		Use NLP to summarize trends (e.g., "Leisure sector contributed 56% to EBITDA decline in 2020").
+	2.Forecasting
+		 Predict future trends using historical data (e.g., ARIMA or LSTM models).
+	3. Export Options
+		 Download charts/data as PDF/CSV.
+	4. Dynamic Tooltips
+		 Hover effects showing exact values, YoY growth rates, and event impacts.
+	5. Themes
+		Dark/light mode toggle.
+
